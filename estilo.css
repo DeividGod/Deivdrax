@@ -1,0 +1,51 @@
+body {
+    background: aquamarine;
+}
+h1{color: brown;font-size: 45px;}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado con imagen de fondo */
+header {
+    background: url('header-bg.jpg') center/cover no-repeat;
+    color: rgb(8, 136, 255);
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Estilos para el contenido con imagen junto al texto */
+.section {
+    background: url('content-image.jpg') left/300px no-repeat; /* Ajusta el tamaño de la imagen según sea necesario */
+    padding: 50px;
+}
+
+/* Estilos para el pie de página con imagen de fondo */
+footer {
+    background: url('footer-bg.jpg') center/cover no-repeat;
+    color: rgb(138, 10, 143);
+    text-align: center;
+    padding: 50px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
